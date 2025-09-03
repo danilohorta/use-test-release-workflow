@@ -6,3 +6,6 @@ jobs:
   create-release:
     name: Create a release
     uses: danilohorta/test-release-workflow/.github/workflows/release-create.yml@main
+
+permissions:
+  contents: write
