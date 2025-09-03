@@ -1,0 +1,7 @@
+name: Bla
+
+on: workflow_call
+
+jobs:
+  create-release:
+    uses: danilohorta/test-release-workflow/.github/workflows/release-create.yml
