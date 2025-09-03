@@ -5,5 +5,5 @@ on: workflow_dispatch
 jobs:
   build-something:
     name: Build alguma coisa
-    uses: danilohorta/test-release-workflow/.github/workflows/release-workflow.yml@main
+    uses: danilohorta/test-release-workflow/.github/workflows/release-create.yml@main
     secrets: inherit
