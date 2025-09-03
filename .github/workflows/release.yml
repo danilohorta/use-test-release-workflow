@@ -1,7 +1,8 @@
 name: Bla
 
-on: workflow_run
+on: workflow_call
 
 jobs:
   create-release:
+    name: Create a release
     uses: danilohorta/test-release-workflow/.github/workflows/release-create.yml@main
